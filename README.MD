@@ -3,4 +3,6 @@
 ##Mac OSX
 
  - ```npm run setup```
- - ```npm run test```
+ - ```node server.js```
+ - ```npm run e2e-start```
+ - ```npm run e2e-test```

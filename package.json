@@ -4,13 +4,15 @@
   "description": "protractor demo",
   "main": "index.js",
   "scripts": {
-    "setup":"npm install && node node_modules/protractor/bin/webdriver-manager update",
-    "start" : "node node_modules/protractor/bin/webdriver-manager start",
-    "test": "node node_modules/protractor/bin/protractor conf.js"
+    "setup": "npm install && node node_modules/protractor/bin/webdriver-manager update",
+    "e2e-start": "node node_modules/protractor/bin/webdriver-manager start",
+    "e2e-test": "node node_modules/protractor/bin/protractor tests/e2e/conf.js"
   },
   "author": "Mark Coleman",
   "license": "ISC",
   "devDependencies": {
-    "protractor": "~1.6.1"
+    "connect": "^3.3.4",
+    "protractor": "~1.6.1",
+    "serve-static": "^1.8.1"
   }
 }
